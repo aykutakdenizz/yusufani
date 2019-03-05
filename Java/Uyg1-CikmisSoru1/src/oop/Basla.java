@@ -36,6 +36,8 @@ public class Basla {
 		kitaplik.gosterRaf(no);
 		
 		giris.close();
+		
+		
 	}
 
 }
