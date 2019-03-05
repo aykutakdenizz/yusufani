@@ -1,0 +1,9 @@
+
+public class insan {
+	int boy;
+	int isim;
+	int yagOrani;
+	class insan(String isim) {
+		this.isim=isim;
+	}
+}

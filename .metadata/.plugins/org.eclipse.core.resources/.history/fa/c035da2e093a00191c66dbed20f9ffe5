@@ -1,0 +1,11 @@
+package spor;
+
+public class insan {
+	public insan(String isim2) {
+		isim=isim2;
+	}
+	int boy,yagOrani;
+	String isim2;
+
+
+}
