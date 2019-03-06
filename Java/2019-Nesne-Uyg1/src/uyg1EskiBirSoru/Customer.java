@@ -1,4 +1,4 @@
-package uyg1;
+package uyg1EskiBirSoru;
 
 import java.util.LinkedList;
 

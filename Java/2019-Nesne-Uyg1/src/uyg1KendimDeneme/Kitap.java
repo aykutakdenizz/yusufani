@@ -1,4 +1,4 @@
-package uyg1;
+package uyg1KendimDeneme;
 
 public class Kitap {
 	private String kitapAd,yazar,ISBN;

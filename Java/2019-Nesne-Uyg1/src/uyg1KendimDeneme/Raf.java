@@ -1,4 +1,4 @@
-package uyg1;
+package uyg1KendimDeneme;
 
 import java.util.LinkedList;
 

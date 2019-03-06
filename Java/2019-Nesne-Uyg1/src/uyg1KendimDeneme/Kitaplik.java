@@ -1,4 +1,4 @@
-package uyg1;
+package uyg1KendimDeneme;
 public class Kitaplik {
 	private Raf raf[];
 	public Kitaplik(int rafSayisi) {

@@ -1,4 +1,4 @@
-package uyg1;
+package uyg1EskiBirSoru;
 
 public class Product {
 	private String name,brand,SKT;
