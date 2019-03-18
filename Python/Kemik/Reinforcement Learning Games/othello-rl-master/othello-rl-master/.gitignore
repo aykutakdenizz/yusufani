@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+*.swp
+
+# Output
+*.csv
+*.weights
+
+# Latex stuff
+*.log
+*.aux
+*.out

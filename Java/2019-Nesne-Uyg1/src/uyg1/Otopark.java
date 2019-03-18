@@ -41,6 +41,7 @@ public class Otopark {
 		Scanner in = new Scanner(System.in);
 		int tmp = in.nextInt();
 		this.kapasite+=tmp;
+		in.close();
 	}
 	public int getKapasite() {
 		return kapasite;

@@ -1,0 +1,4 @@
+numpy==1.14.*
+tensorflow==1.8.*
+pytest
+mock
