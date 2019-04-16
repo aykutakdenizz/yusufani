@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Calismalar.iml" filepath="$PROJECT_DIR$/Calismalar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spor Salonu/Spor Salonu.iml" filepath="$PROJECT_DIR$/Spor Salonu/Spor Salonu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari/YTU-Nesne-2019-Lab3-Calismalari.iml" filepath="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari/YTU-Nesne-2019-Lab3-Calismalari.iml" />
+    </modules>
+  </component>
+</project>
