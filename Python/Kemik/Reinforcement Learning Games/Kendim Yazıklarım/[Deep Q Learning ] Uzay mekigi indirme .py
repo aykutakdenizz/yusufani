@@ -143,10 +143,10 @@ if __name__ == "__main__":
                       #adjust epsilon
             agent.apativeEGreedy()
             print('Episode: {}, Reward: {}'.format(e,total_reward))
-selection= input("Modeli kaydetmek için 1 e basın ")
-if selection == 1:
-    agent.model.save('model2.tf')
-    print("Model Kaydedildi")
+#selection= input("Modeli kaydetmek için 1 e basın ")
+#if selection == 1:
+agent.model.save('modelforuzay.tf')
+print("Model Kaydedildi")
 # %% test
 import time
 trained_model = agent

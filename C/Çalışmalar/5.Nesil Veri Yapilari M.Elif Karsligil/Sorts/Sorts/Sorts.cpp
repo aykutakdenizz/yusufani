@@ -3,6 +3,8 @@
 void BubbleSort(int * arr, int n);
 void SelectionSort(int * arr, int n);
 void InsertionSort(int * arr, int n);
+void ShellSort(int* arr, int n);
+
 int main() {
 	int *arr, n, i;
 	printf("Lutfen dizi boyutunu giriniz :");
@@ -25,6 +27,10 @@ int main() {
 		}
 		case 3: {
 			InsertionSort(arr, n);
+			break;
+		}
+		case 4: {
+			ShellSort(arr, n);
 			break;
 		}
 	}
@@ -75,5 +81,23 @@ void InsertionSort(int * arr, int n) {
 			j--;
 		}
 		arr[j + 1] = min;
+	}
+}
+
+void ShellSort(int* arr, int n)
+{
+	for (int k = n / 2; k > 0; k /= 2)
+	{
+		for (int i = k; i < n; i++)
+		{
+			int temp = arr[i];
+			int j = i;
+			while (j >= k && arr[j - k] > temp)
+			{
+				arr[j] = arr[j - k];
+				j -= k;
+			}
+			arr[j] = temp;
+		}
 	}
 }
