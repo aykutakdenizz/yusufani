@@ -1,6 +1,13 @@
 public class Person {
     private int id;
     private String isim,soyisim,sifre;
+    private char cinsiyet;// ERKEK -> 0 KADIN ->1
+    public Person(String isim, String soyisim, String sifre,char cinsiyet) {
+        this.isim = isim;
+        this.soyisim = soyisim;
+        this.sifre = sifre;
+        this.cinsiyet=cinsiyet;
+    }
 
     public int getId() {
         return id;
@@ -33,11 +40,15 @@ public class Person {
     public void setSifre(String sifre) {
         this.sifre = sifre;
     }
+    public char getCinsiyet() {
+        return cinsiyet;
+    }
 
-    public Person(int id, String isim, String soyisim, String sifre) {
-        this.id = id;
-        this.isim = isim;
-        this.soyisim = soyisim;
-        this.sifre = sifre;
+    public void setCinsiyet(char cinsiyet) {
+        this.cinsiyet = cinsiyet;
+        if(cinsiyet>1 || cinsiyet<0){
+            System.out.println("Cinsiyet Erkek veya Kadin olabilir.");
+            this.cinsiyet=0;
+        }
     }
 }

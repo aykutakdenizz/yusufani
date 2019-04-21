@@ -1,142 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Spor Salonu/src/Test.java" line="7" />
-    <bookmark url="file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" line="9" />
+    <bookmark url="file://$PROJECT_DIR$/Spor Salonu/src/Test.java" line="9" />
+    <bookmark url="file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" line="21" />
+    <bookmark url="file://$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/Ogrenim/main.java" line="6" />
+    <bookmark url="file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" />
+    <bookmark url="file://$PROJECT_DIR$/Spor Salonu/src/Test.java" line="22" />
+    <bookmark url="file://$PROJECT_DIR$/Spor Salonu/src/Musteri.java" line="139" />
+    <bookmark url="file://$PROJECT_DIR$/Spor Salonu/src/Test.java" line="33" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="640accf1-411a-4d9b-a0b5-884efd0483ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Spor Salonu/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/.vs/Sorts/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/.vs/Sorts/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/.vs/Sorts/v15/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/.vs/Sorts/v15/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/Sorts.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/Sorts.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/vc141.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/vc141.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/vc141.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/vc141.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/x64/Debug/Sorts.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/x64/Debug/Sorts.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/x64/Debug/Sorts.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/x64/Debug/Sorts.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/x64/Debug/Sorts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/x64/Debug/Sorts.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2019-Nesne-Uyg1/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2019-Nesne-Uyg1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2019-Nesne-Uyg1/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2019-Nesne-Uyg1/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2019-Nesne-Uyg1/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Tutorial/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Tutorial/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Tutorial/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Tutorial/bin/ders1/helloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Tutorial/src/ders1/helloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXControls/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXControls/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXControls/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXControls/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXControls/build.fxbuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXControls/fontawesomefx-8.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXControls/src/application/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXControls/src/application/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXControls/src/application/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxIlkProje/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxIlkProje/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxIlkProje/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxIlkProje/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxIlkProje/build.fxbuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxIlkProje/src/application/HBoxOrnek.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxIlkProje/src/application/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxIlkProje/src/application/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxIlkProje/src/application/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxTest/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxTest/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxTest/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxTest/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxTest/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxTest/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotDefteri/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotDefteri/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotDefteri/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotDefteri/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotDefteri/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotDefteri/build.fxbuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotDefteri/src/com/yusufani/notdefteri/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotDefteri/src/com/yusufani/notdefteri/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotDefteri/src/com/yusufani/notdefteri/anapencere.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotDefteri/src/com/yusufani/notdefteri/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotDefteri/src/com/yusufani/notdefteri/datamodel/NotData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotDefteri/src/com/yusufani/notdefteri/datamodel/NotOge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uyg1-CikmisSoru2/src/BLM2512-2018_2-Odev1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama-2/Cevap/ArastirmaGorevlisi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama-2/Cevap/Bolum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama-2/Cevap/Calisan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama-2/Cevap/OgretimUyesi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama-2/Cevap/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama-2/NesneUyg2-son.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama-2/Op_Overload.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama-2/Soru.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2kendimdeneme/ArastirmaGorevlisi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2kendimdeneme/Bolum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2kendimdeneme/Calisan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2kendimdeneme/OgretimUyesi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2kendimdeneme/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2oncesiorneksoru/AkademikPersonel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2oncesiorneksoru/Daire.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2oncesiorneksoru/IdariPersonel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2oncesiorneksoru/Oda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2oncesiorneksoru/Personel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2oncesiorneksoru/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2oncesiorneksoru/ornekSoru.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2orneksoru/ArastirmaGorevlisi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2orneksoru/Bolum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2orneksoru/Calisan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2orneksoru/NesneUyg2-son.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2orneksoru/OgretimUyesi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2orneksoru/Soru.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uygulama2/src/lab2orneksoru/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/lib/sqlite-jdbc-3.23.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/muzik.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/src/com/yusufani/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/src/muzik/Album.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/src/muzik/Sarkici.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/src/muzik/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/src/muzik/sarki.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/src/muzikmodel/DataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VeriTabaniSQL/test.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/oop/Basla.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/oop/Kitap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/oop/Kitaplik.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/oop/Raf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/uyg1/Araba.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/uyg1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/uyg1/Otopark.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/uyg1EskiBirSoru/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/uyg1EskiBirSoru/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/uyg1EskiBirSoru/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/uyg1EskiBirSoru/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/uyg1KendimDeneme/Kitap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/uyg1KendimDeneme/Kitaplik.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/uyg1KendimDeneme/Raf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YTU-2019-Nesne-Uyg1/src/uyg1KendimDeneme/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../k/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../k/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../k/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../k/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spor Salonu/src/Personel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/LabOncesiCalismalar/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/LabOncesiOrnekSoru/BellekYonetimi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/LabOncesiOrnekSoru/Process.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/LabOncesiOrnekSoru/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/Ogrenim/Ogrenci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/Ogrenim/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spor Salonu/müsteri.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spor Salonu/src/Musteri.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spor Salonu/src/Musteri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spor Salonu/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spor Salonu/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spor Salonu/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spor Salonu/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari/YTU-Nesne-2019-Lab3-Calismalari.iml" beforeDir="false" afterPath="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/YTU-Nesne-2019-Lab3-Calismalari-Collections.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari/src/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musteri.db" beforeDir="false" afterPath="$PROJECT_DIR$/musteri.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musteri.db-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spor Salonu/Musteri.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spor Salonu/Musteri.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spor Salonu/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spor Salonu/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spor Salonu/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spor Salonu/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spor Salonu/VeriTabani.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spor Salonu/VeriTabani.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/YTU-Nesne-2019-Lab3-Calismalari/main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Python/Kemik/Reinforcement Learning Games/Kendim Yazıklarım/[Deep Q Learning ] Uzay mekigi indirme .py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Kemik/Reinforcement Learning Games/Kendim Yazıklarım/[Deep Q Learning ] Uzay mekigi indirme .py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Kemik/Reinforcement Learning Games/Kendim Yazıklarım/[Deep Q Learning] Cartpole Oyunu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Kemik/Reinforcement Learning Games/Kendim Yazıklarım/[Deep Q Learning] Cartpole Oyunu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Kemik/Reinforcement Learning Games/Kendim Yazıklarım/lander.py" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,12 +66,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari/src/main.java">
+        <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Musteri.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="24">
+              <caret line="98" column="49" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1726#1727#0" expanded="true" />
+                <element signature="e#1754#1755#0" expanded="true" />
+                <element signature="e#2112#2113#0" expanded="true" />
+                <element signature="e#2143#2144#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,6 +92,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -188,6 +100,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>musteri</find>
+      <find>o</find>
+      <find>TABLE_HAREKETLER</find>
+      <find>TABLE_DERSPROGRAMI</find>
+      <find>gun</find>
+      <find>Random</find>
+      <find>hareketStringiniDondur(HIH.get(37),HIH.get(38),HIH.get(39),HIH.get(40),HIH.get(41),HIH.get(42));</find>
+      <find>HIH.</find>
+      <find>PERSO</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,30 +116,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Spor Salonu/src/Person.java" />
-        <option value="$PROJECT_DIR$/Spor Salonu/src/Musteri.java" />
-        <option value="$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" />
-        <option value="$PROJECT_DIR$/Spor Salonu/src/Test.java" />
         <option value="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari/src/main.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/Spor Salonu/Spor Salonu.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_27_2_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
-        <option value="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari/YTU-Nesne-2019-Lab3-Calismalari.iml" />
+        <option value="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/main.java" />
+        <option value="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/Ogrenci.java" />
+        <option value="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/LabOncesiCalismalar/main.java" />
+        <option value="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/LabOncesiOrnekSoru/Process.java" />
+        <option value="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/LabOncesiOrnekSoru/Test.java" />
+        <option value="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/LabOncesiOrnekSoru/BellekYonetimi.java" />
+        <option value="$PROJECT_DIR$/Spor Salonu/src/Hareketler.java" />
+        <option value="$PROJECT_DIR$/Spor Salonu/src/Person.java" />
+        <option value="$PROJECT_DIR$/Spor Salonu/src/Personel.java" />
+        <option value="$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" />
+        <option value="$PROJECT_DIR$/Spor Salonu/src/Musteri.java" />
+        <option value="$PROJECT_DIR$/Spor Salonu/src/Test.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="9" />
-    <option name="width" value="1366" />
-    <option name="height" value="768" />
+    <option name="x" value="1346" />
+    <option name="y" value="175" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -229,8 +146,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,17 +166,6 @@
               <item name="Spor Salonu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Calismalar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Calismalar" type="462c0819:PsiDirectoryNode" />
-              <item name="YTU-Nesne-2019-Lab3-Calismalari" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Calismalar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Calismalar" type="462c0819:PsiDirectoryNode" />
-              <item name="YTU-Nesne-2019-Lab3-Calismalari" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -268,15 +174,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -296,7 +205,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LabOncesiOrnekSoru.Test" />
+      <module name="YTU-Nesne-2019-Lab3-Calismalari-Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LabOncesiOrnekSoru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Spor Salonu" />
@@ -304,17 +226,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LabOncesiCalismalar.main" />
+      <module name="YTU-Nesne-2019-Lab3-Calismalari-Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LabOncesiCalismalar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="YTU-Nesne-2019-Lab3-Calismalari" />
+      <option name="MAIN_CLASS_NAME" value="Ogrenim.main" />
+      <module name="YTU-Nesne-2019-Lab3-Calismalari-Collections" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.main (1)" />
+        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -330,18 +267,25 @@
       <updated>1555359913574</updated>
       <workItem from="1555359916463" duration="870000" />
       <workItem from="1555361066182" duration="5778000" />
-      <workItem from="1555420057932" duration="3383000" />
+      <workItem from="1555420057932" duration="4781000" />
+      <workItem from="1555439282019" duration="6508000" />
+      <workItem from="1555485589351" duration="558000" />
+      <workItem from="1555589683451" duration="7587000" />
+      <workItem from="1555609604304" duration="16709000" />
+      <workItem from="1555667572589" duration="5021000" />
+      <workItem from="1555744093271" duration="639000" />
+      <workItem from="1555746726786" duration="26096000" />
+      <workItem from="1555776311200" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10031000" />
+    <option name="totallyTimeSpent" value="75146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1456" height="916" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24236111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24963397" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -349,9 +293,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994374" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.093333334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3605948" />
+      <window_info anchor="bottom" x="1405" y="584" width="1366" height="768" id="Debug" order="3" sideWeight="0.49926794" weight="0.35687733" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -359,8 +303,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32911393" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50073206" side_tool="true" weight="0.3214815" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32094175" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -371,6 +315,37 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25549048" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24963397" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329235" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30666667" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39555556" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32911393" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.329235" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3214815" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.329429" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -419,135 +394,51 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Spor Salonu/src/Musteri.java</url>
-          <line>68</line>
+          <url>file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java</url>
+          <line>320</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Spor Salonu/src/Test.java</url>
-          <line>9</line>
+          <url>file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java</url>
+          <line>323</line>
           <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Spor Salonu/src/Test.java</url>
-          <line>8</line>
-          <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="baglanti" language="JAVA" />
+        <watch expression="sorgu" language="JAVA" />
+        <watch expression="bacakOmuz" language="JAVA" />
+        <watch expression="gogusArkaKol" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>gogusArkaKol</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bacakOmuz</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sorgu</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc3/JDBC3ResultSet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#1145#1146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4ResultSet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#1007#1008#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc3/JDBC3Statement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#626#627#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4Statement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4PreparedStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/core/DB.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-          <folding>
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/SQLiteConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="267" selection-start-line="267" selection-end-line="267" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4Connection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc3/JDBC3Connection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/core/CoreStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/core/CorePreparedStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc3/JDBC3PreparedStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="246" selection-start-line="246" selection-end-line="246" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4PreparedStatement.class" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/core/CorePreparedStatement.class" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc3/JDBC3PreparedStatement.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4036">
@@ -555,65 +446,164 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2303">
+          <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325">
+          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/Ogrenim/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/Ogrenim/Ogrenci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/LabOncesiCalismalar/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/LabOncesiOrnekSoru/Process.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/LabOncesiOrnekSoru/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/LabOncesiOrnekSoru/BellekYonetimi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+          <folding>
+            <element signature="e#11597#11598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="487" selection-start-line="487" selection-end-line="487" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Hareketler.java" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/core/CoreResultSet.class" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4ResultSet.class" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/ExtendedCommand.class" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/core/NativeDB.class" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/core/CoreStatement.class" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4Statement.class" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc3/JDBC3ResultSet.class" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/core/DB.class" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/SQLiteConnection.class" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc3/JDBC3Statement.class" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4Connection.class" />
+    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc3/JDBC3Connection.class" />
+    <entry file="file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="330" column="45" lean-forward="true" selection-start-line="330" selection-start-column="45" selection-end-line="330" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Personel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        <state relative-caret-position="107">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Musteri.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-          <folding>
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="41" column="71" lean-forward="true" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="24">
+          <caret line="98" column="49" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1726#1727#0" expanded="true" />
+            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="e#2112#2113#0" expanded="true" />
+            <element signature="e#2143#2144#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -668,6 +658,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>Spor Salonu</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

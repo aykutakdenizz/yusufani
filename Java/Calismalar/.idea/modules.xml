@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Calismalar.iml" filepath="$PROJECT_DIR$/Calismalar.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spor Salonu/Spor Salonu.iml" filepath="$PROJECT_DIR$/Spor Salonu/Spor Salonu.iml" />
-      <module fileurl="file://$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari/YTU-Nesne-2019-Lab3-Calismalari.iml" filepath="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari/YTU-Nesne-2019-Lab3-Calismalari.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/YTU-Nesne-2019-Lab3-Calismalari-Collections.iml" filepath="$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/YTU-Nesne-2019-Lab3-Calismalari-Collections.iml" />
     </modules>
   </component>
 </project>

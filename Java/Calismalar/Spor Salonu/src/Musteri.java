@@ -1,82 +1,208 @@
+import java.util.HashMap;
+import java.util.Random;
 
 public class Musteri extends Person{
-    private String saatler,hareketler1,hareketler2,hareketler3;
-    private double VKI;
-    private double kasOrani;
-    public Musteri(int id, String isim, String soyisim, String sifre, String saatler, String hareketler1, String hareketler2, String hareketler3, double VKI, double kasOrani) {
-        super(id, isim, soyisim, sifre);
-        this.saatler = saatler;
-        this.hareketler1 = hareketler1;
-        this.hareketler2 = hareketler2;
-        this.hareketler3 = hareketler3;
-        this.VKI = VKI;
-        this.kasOrani = kasOrani;
+    private String [] hareketler;
+    private int boy,memnuniyet;
+    private int []dersProgrami;
+    private double kasOrani,kutle,yagOrani;
+    public void setDersProgrami(int[] dersProgrami) {
+        this.dersProgrami = dersProgrami;
     }
-    public String getSaatler() {
-        return saatler;
+    public int[] getDersProgrami() {
+        return dersProgrami;
     }
-
-    public void setSaatler(String saatler) {
-        this.saatler = saatler;
+    public Musteri(String isim, String soyisim, String sifre,char cinsiyet) {
+        super( isim, soyisim, sifre,cinsiyet);
+        memnuniyet=3; // Ortalama deger ile baslar herkes
     }
-
-    public String getHareketler1() {
-        return hareketler1;
+    public String[] getHareketler() {
+        return hareketler;
     }
-
-    public void setHareketler1(String hareketler1) {
-        this.hareketler1 = hareketler1;
+    public void setHareketler(String[] hareketler) {
+        this.hareketler = hareketler;
     }
-
-    public String getHareketler2() {
-        return hareketler2;
-    }
-
-    public void setHareketler2(String hareketler2) {
-        this.hareketler2 = hareketler2;
-    }
-
-    public String getHareketler3() {
-        return hareketler3;
-    }
-
-    public void setHareketler3(String hareketler3) {
-        this.hareketler3 = hareketler3;
-    }
-
-    public double getVKI() {
-        return VKI;
-    }
-
-    public void setVKI(double VKI) {
-        this.VKI = VKI;
-    }
-
     public double getKasOrani() {
         return kasOrani;
     }
-
     public void setKasOrani(double kasOrani) {
         this.kasOrani = kasOrani;
     }
 
-    public void dersProgramiOlustur(VeriTabani x){
-        System.out.println("Ders Programi Olusturucuya Hosgeldiniz");
+    public int getBoy() {
+        return boy;
+    }
+
+    public void setBoy(int boy) {
+        this.boy = boy;
+        if (boy> 300) {
+            System.out.println("3 Metreden fazla boy olamaz lutfen boyunuzu dogru giridginizden emin olunuz");
+            this.boy=300;
+        }
+    }
+
+    public int getMemnuniyet() {
+        return memnuniyet;
+    }
+
+    public void setMemnuniyet(int memnuniyet) {
+        this.memnuniyet = memnuniyet;
+        if(memnuniyet>5){
+            System.out.println("Memnuniyet [0-5] degerlendirmek araliklarinda degerlendirebilir.");
+            this.memnuniyet=5;
+        }
+        if(memnuniyet<0){
+            System.out.println("Memnuniyet [0-5] degerlendirmek araliklarinda degerlendirebilir.");
+            this.memnuniyet=0;
+        }
+    }
+    public double getKutle() {
+        return kutle;
+    }
+    public void setKutle(double kutle) {
+        this.kutle = kutle;
+        if(kutle> 300){
+            System.out.println("Kutle en fazla 300 KG olabilir.");
+            this.kutle=300;
+        }
+        if(kutle<20){
+            System.out.println("Kutle en az 20 olabilir.");
+            this.kutle=20;
+        }
+    }
+
+    public double getYagOrani() {
+        return yagOrani;
+    }
+
+    public void setYagOrani(double yagOrani) {
+        this.yagOrani = yagOrani;
+        if(yagOrani>70){
+            System.out.println("Gecersiz Yag Orani");
+            this.yagOrani=70;
+        }
+        if(yagOrani<=0){
+            System.out.println("Gecersiz Yag Orani");
+            this.yagOrani=1;
+        }
+    }
+
+    public String[] hareketProgramiOlustur(int gunSayisi){ //
+        /*Input: Musterinin spor salonuna geleceği gun sayısı
+        Output: Musterinin hareketlerini içeren String dizisi
+        Bu fonksiyon Musteri icin otomatik olarak ders programi olusturur.
+        NOT: Otomatik program oluştururken herhangi bir uzmandan yardim alinmamistir.Paremetreler degişikli gösterebilir.
+        3 Farklı program tipi bulunmaktadır.
+        1-> Full Body : Tum vucut bolumlerinin calistirildigi program tipidir.Yeni baslayanlar icin idealdir.
+        2-> Bolgesel : Her gun 2 farklı vucut bolgesini daha izole hareketlerle calistiran program tipidir.
+        3-> Kardiyo : Kardiyovasküler sistemi geliştirdiği için herkesin yapması gereken program tipidir.
+        Musterinin Spor salonuna geldiği gun sayisina göre otomatik olarak programa ayarlamar yapilmaktadir.
+        Hatırlatma: Return edilen hareketler dizisinin veritabanina yazilmasini saglayan fonksiyona parametre olarak gönderilmesi gerekir.
+        NOT2: Random sayilari belirli veritabani indislerine gore atanmaktadır.Eğer yeni bir hareket ederse koda mudahale gerekir.
+        */
         StringBuilder mesaj = new StringBuilder("Vucut kitle indexine ve kas oranınınıza göre size uygun olan program ");
-        if ( this.VKI < 20 && this.kasOrani > 36   ){
+        Random random = new Random();
+        String []hareketler= new String[7]; // Hareketlerin tutuldugu String
+        for (int i=0;i<7;i++) hareketler[i]="null;";
+        if ( this.getKasOrani() == 0 || this.getYagOrani()== 0){
+            return hareketler;
+        }
+        String kardiyo=hareketStringiniDondur(37,38,39,40,41,42);//Kardiyo Programı
+        int index= random.nextInt(2)+1;
+        if ((getYagOrani() < 17+6*getCinsiyet()) && getKasOrani() > (36-getCinsiyet()*10 )  ){
             mesaj.append("bolgesel antrenman tipidir.");
             System.out.println(mesaj);
-            System.out.println("Sizin için uygun antrenman programı su sekildedir:buraya indislere göre degerler gelecek");
-            this.setHareketler1("1;2;3;4;6;");
-            this.setHareketler2("7;8;9;");
-            this.setHareketler3("10;11;12");
+            System.out.println("Sizin için uygun antrenman programı su sekildedir");
+           String bacakOmuz= hareketStringiniDondur(index,index+2,index+4,index+6,index+8,index+10);
+           String gogusArkaKol= hareketStringiniDondur(index+12,index+12+2,index+12+4,index+12+6,index+12+8,index+12+10);// Gogus ile bacak indisleri arasındaki fark 12
+            String sirtOnKol=hareketStringiniDondur(index+24,index+24+2,index+24+4,index+24+6,index+24+8,index+24+10);// Gogus ile bacak indisleri arasındaki fark 24
+            if (gunSayisi== 4 ) {
+                hareketler[0]=bacakOmuz;
+                hareketler[2]=gogusArkaKol;
+                hareketler[4]=sirtOnKol;
+                hareketler[1+2*random.nextInt(4)]=kardiyo;
+            }
+            else if (gunSayisi == 1){
+                hareketler[random.nextInt(7)]=kardiyo;
+            }
+            else if ( gunSayisi == 2){
+                int tmp=random.nextInt(7),tmp2;
+                while(tmp== (tmp2=random.nextInt(7)));
+                hareketler[tmp]=kardiyo;
+                hareketler[tmp2]=kardiyo;
+            }
+            else if (gunSayisi == 5){
+                hareketler[1]=bacakOmuz;
+                hareketler[3]=gogusArkaKol;
+                hareketler[5]=sirtOnKol;
+                int tmp =2*random.nextInt(4),tmp2;
+                hareketler[tmp]=kardiyo;
+                while(tmp ==( tmp2=2*random.nextInt(4)));
+                hareketler[tmp2]=kardiyo;
+            }
+            else if (gunSayisi == 3 ){
+                hareketler[1]=bacakOmuz;
+                hareketler[3]=gogusArkaKol;
+                hareketler[5]=sirtOnKol;
+            }
+            else if (gunSayisi== 6){
+                hareketler[1]=bacakOmuz;
+                hareketler[3]=gogusArkaKol;
+                hareketler[5]=sirtOnKol;
+                hareketler[0]=gogusArkaKol;
+                hareketler[2]=sirtOnKol;
+                hareketler[4]=bacakOmuz;
+            }
+
         }
         else {
             mesaj.append("tum vucut antrenman tipidir");
-            this.setHareketler1("1;2;3;4;6;");
-            this.setHareketler2("1;2;3;4;6;");
-            this.setHareketler3("1;2;3;4;6;");
+            String fullBody=hareketStringiniDondur(index,index+2,index+6,index+8,index+12,index+14);
+            fullBody+=hareketStringiniDondur(index+18,index+20,index+24,index+26,index+30,index+32);
+            if (gunSayisi == 4 ) {
+                hareketler[2]=fullBody;
+                hareketler[4]=fullBody;
+                hareketler[6]=fullBody;
+                hareketler[(2*random.nextInt(3))+1]=kardiyo;
+            }
+            else if (gunSayisi == 1){
+                hareketler[random.nextInt(7)]=kardiyo;
+            }
+            else if ( gunSayisi == 2){
+
+                int tmp=random.nextInt(7),tmp2;
+                while(tmp== (tmp2=random.nextInt(7)));
+                hareketler[tmp]=kardiyo;
+                hareketler[tmp2]=kardiyo;
+            }
+            else if (gunSayisi == 5){
+                hareketler[2]=fullBody;
+                hareketler[4]=fullBody;
+                hareketler[6]=fullBody;
+                int tmp =2*random.nextInt(3)+1,tmp2;
+                hareketler[tmp]= kardiyo;
+                while(tmp!=( tmp2=1+(2*random.nextInt(3))));
+                hareketler[tmp2]=kardiyo;
+            }
+            else if ( gunSayisi == 3){
+
+                hareketler[2]=fullBody;
+                hareketler[4]=fullBody;
+                hareketler[6]=fullBody;
+            }
+            else if  (gunSayisi== 6){
+                hareketler[2]=fullBody;
+                hareketler[4]=fullBody;
+                hareketler[6]=fullBody;
+                hareketler[0]=fullBody;
+                hareketler[1]=kardiyo;
+                hareketler[5]=kardiyo;
+            }
         }
-        x.musteriDersProgramıGuncelle(this);
+        return hareketler;
+    }
+
+    private String hareketStringiniDondur(int s, int s1, int s2, int s3, int s4, int s5) {
+        return s+";"+s1+";"+s2+";"+s3+";"+s4+";"+s5+";";
     }
 }
