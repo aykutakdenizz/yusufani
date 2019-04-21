@@ -87,6 +87,7 @@ if __name__ == "__main__":
     
     batch_size = 32
     episodes = 10000
+    #agent.model.load_weights("modelforuzay.tf")
     for e in range(episodes):
         
         state = env.reset()

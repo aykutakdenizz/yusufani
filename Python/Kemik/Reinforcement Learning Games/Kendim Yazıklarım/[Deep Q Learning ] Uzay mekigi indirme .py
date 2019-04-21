@@ -119,6 +119,7 @@ if __name__ == "__main__":
     agent = DQLAgent(env) # Agentımızı oluşturduk
     batch_Size = 32 # Yani storageden 16 adet parametre kullanıcaz.Yani state,action,reward,next_State , done ların hepsinden 16 adet kullanıcaz
     episodes=5000  #Tekrar sayisi 
+    reward_List = {}
     for e in range (episodes): 
         # initalize environment
         state= env.reset()

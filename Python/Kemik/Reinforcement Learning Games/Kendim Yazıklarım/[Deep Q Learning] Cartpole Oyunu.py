@@ -11,6 +11,7 @@ from keras.models import Sequential # Sequential model
 from keras.layers import Dense # Dense Layer
 from keras.optimizers import Adam # Optimizer 
 import random
+import matplotlib.pyplot as plt
 """ 
 Oyundan bahsedeyim 
 Asıl amaç çubuğu 15 dereceden fazla eğmemek ve altındaki kartonu çok fazla kaydırmamak
@@ -34,9 +35,8 @@ class DQLAgent :
         self.state_Size=env.observation_space.shape[0]#State size bizim neural networkdaki başlangıç statemizdeki nodelar olacak 
         self.action_Size= env.action_space.n #Action size da bizim neural networkdeki çıkıs nodelarımız
         
-        self.gamma= 0.95 #Discount rate
+        self.gamma= 0.99 #Discount rate
         self.learning_rate= 0.001 
-        
         self.epsilon = 1 # Action seçerkenki değer explore
         self.epsilon_decay=0.995 # Epsilonun her adımda azalma miktarı
         self.epsilon_min= 0.01  # Epsilonuın alabileceği minimun değer
@@ -88,13 +88,15 @@ if __name__ == "__main__":
     #initalize env and agent
     env = gym.make("CartPole-v0") # OYunu env a yükledik 
     agent = DQLAgent(env) # Agentımızı oluşturduk
-    batch_Size = 16 # Yani storageden 16 adet parametre kullanıcaz.Yani state,action,reward,next_State , done ların hepsinden 16 adet kullanıcaz
-    episodes=100 # Tekrar sayisi 
+    batch_Size = 64 # Yani storageden 16 adet parametre kullanıcaz.Yani state,action,reward,next_State , done ların hepsinden 16 adet kullanıcaz
+    episodes=500 # Tekrar sayisi 
+    reward_List = []
     for e in range (episodes): 
         # initalize environment
         state= env.reset()
         state = np.reshape(state,[1,4]) # State bilgilerinin hepsini 1 elemanda toplamak ilerisi için bize yardımcı olacak .En son stateleri bir listede tutarken mesela
         time = 0 # Geçen zamanı tutmak için
+        total_reward=0
         while True :
             #act
             action = agent.act(state) # Hangi actionı almamız gerektiğini belirledik
@@ -104,6 +106,7 @@ if __name__ == "__main__":
             #remember / Storage
             agent.remember(state,action,reward,next_State,done)
             #update state
+            total_reward+=reward
             state= next_State
             #replay
             agent.replay(batch_Size)
@@ -112,32 +115,35 @@ if __name__ == "__main__":
             time += 1 
             if done:
                 print("Bölüm {}, time : {}".format(e,time))
+                reward_List.append(total_reward)
                 break
-selection= input("Modeli kaydetmek için 1 e basın ")
-if selection == 1:
-    agent.model.save('model.tf')
-    print("Model Kaydedildi")
+    plt.plot(reward_List) # 1 satırda 2 tane plot oluştur
+    plt.show()
+#selection= input("Modeli kaydetmek için 1 e basın ")
+#if selection == 1:
+#    agent.model.save('model.tf')
+#    print("Model Kaydedildi")
 # %% görselleştirme kısmı / Test bölümü
-import  time
-from keras.models import load_model
-selection = input("Daha onceki modelleri kullanmak istiyorsanız 1 yazınız ")
-if selection== '1' : 
-    trained_model =load_model("model.tf")     
-else :
-    trained_model = agent
-state = env.reset()
-state = np.reshape(state, [1,4])
-time_t = 0
-while True :
-    env.render()
-    action=trained_model.act(state)
-    next_state,reward,done,info = env.step(action)
-    next_state = np.reshape(next_state, [1,4])
-    state = next_state
-    time_t+=1
-    print(time_t)
-    time.sleep(0.4)
-    if done:
-        break
-print("Test İşlemi başarıyla sonlandırıldı")
+#import  time
+#from keras.models import load_model
+#selection = input("Daha onceki modelleri kullanmak istiyorsanız 1 yazınız ")
+#if selection== '1' : 
+#    trained_model =load_model("model.tf")     
+#else :
+#    trained_model = agent
+#state = env.reset()
+#state = np.reshape(state, [1,4])
+#time_t = 0
+#while True :
+#    env.render()
+#    action=trained_model.act(state)
+#    next_state,reward,done,info = env.step(action)
+#    next_state = np.reshape(next_state, [1,4])
+#    state = next_state
+#    time_t+=1
+#    print(time_t)
+#    time.sleep(0.4)
+#    if done:
+#        break
+#print("Test İşlemi başarıyla sonlandırıldı")
                 
