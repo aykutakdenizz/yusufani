@@ -1,3 +1,5 @@
+package Ogrenim;
+
 public class Ogrenci implements Comparable<Ogrenci>
 {
     private int ogreNo;
@@ -10,7 +12,7 @@ public class Ogrenci implements Comparable<Ogrenci>
 
     @Override
     public String toString() {
-        return "Ogrenci No: " + this.ogreNo + " Ogrenci Not: "+ this.ogrNot;
+        return "Ogrenim.Ogrenci No: " + this.ogreNo + " Ogrenim.Ogrenci Not: "+ this.ogrNot;
     }
 
     @Override

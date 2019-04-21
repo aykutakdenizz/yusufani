@@ -1,3 +1,5 @@
+package Ogrenim;
+
 import java.util.*;
 
 public class main {
