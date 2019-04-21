@@ -1,0 +1,4 @@
+﻿  Source.c
+e:\yusuf ani arsiv\c\çalışmalar\5.nesil veri yapilari m.elif karsligil\veriyapilariodev2\veriyapilariodev2\source.c(269): warning C4033: 'deleteUser' must return a value
+e:\yusuf ani arsiv\c\çalışmalar\5.nesil veri yapilari m.elif karsligil\veriyapilariodev2\veriyapilariodev2\source.c(309): warning C4715: 'deleteUser': not all control paths return a value
+  VeriYapilariOdev2.vcxproj -> E:\Yusuf Ani Arsiv\C\Çalışmalar\5.Nesil Veri Yapilari M.Elif Karsligil\VeriYapilariOdev2\x64\Debug\VeriYapilariOdev2.exe
