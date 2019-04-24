@@ -47,6 +47,13 @@ public class VeriTabani {
     public static final String SUTUN_HAREKET_VE_ALETLER_CALISAN_BOLGE = "Calistirilan_Bolge";
     public static final String SUTUN_HAREKET_VE_ALETLER_ALET_ADI = "Alet";
 	public Connection baglanti;
+	private static VeriTabani single_instance = null;
+	public static VeriTabani getInstance(){
+		if (single_instance == null)
+			single_instance = new VeriTabani();
+
+		return single_instance;
+	}
 	public boolean VeriTabaniniAc() {
 		try {
 			baglanti=DriverManager.getConnection(CONNECTION_STRING);
@@ -185,8 +192,8 @@ public class VeriTabani {
 	}
 	public void musteriMemnuniyetiGuncelle(int customerID, int memnuniyet){
 	String sorgu ="UPDATE "+TABLE_MUSTERI_GENELBILGILER+" SET "+SUTUN_MUSTERI_GENELBILGILER_MEMNUNIYET+" ="+memnuniyet +" WHERE "+SUTUN_MUSTERI_GENELBILGILER_ID+" = "+customerID;
-	try(Statement statement = baglanti.createStatement()){
-		statement.executeUpdate(sorgu);
+			try(Statement statement = baglanti.createStatement()){
+				statement.executeUpdate(sorgu);
 	}
 	catch (SQLException e){
 		System.out.println("Memnuniyet bilgisi guncellenemedi");
@@ -309,28 +316,52 @@ public class VeriTabani {
         }
         return aletler;
     }
-    public boolean musteriEkle(Musteri musteri){
-	    String sorgu = "INSERT INTO "+TABLE_MUSTERI_GENELBILGILER+" ( '"+SUTUN_MUSTERI_GEBELBILGILER_ADI+"','"+SUTUN_MUSTERI_GENELBILGILER_SOYADI+"','";
-	    sorgu+=SUTUN_MUSTERI_GENELBILGILER_SIFRESI+"','"+SUTUN_MUSTERI_GENELBILGILER_CINSIYETI+"','"+SUTUN_MUSTERI_GENELBILGILER_MEMNUNIYET+"','";
-	    sorgu+=SUTUN_MUSTERI_GENELBILGILER_YAGORANI+"','"+SUTUN_MUSTERI_GENELBILGILER_KASORANI+"','"+SUTUN_MUSTERI_GENELBILGILER_KUTLE+"','"+SUTUN_MUSTERI_GENELBILGILER_BOY+"')";
-	    sorgu+=" VALUES ('"+musteri.getIsim()+"','"+musteri.getSoyisim()+"','"+musteri.getSifre()+"',"+(int)musteri.getCinsiyet()+","+musteri.getMemnuniyet()+",";
-	    sorgu+=musteri.getYagOrani()+","+musteri.getKasOrani()+","+musteri.getKutle()+","+musteri.getBoy()+");";
-	    String  sorgu2="INSERT INTO "+TABLE_MUSTERI_DERSPROGRAMI+" ('"+SUTUN_MUSTERI_DERSPROGRAMI_ID+"') SELECT seq FROM sqlite_sequence WHERE name =\""+TABLE_MUSTERI_GENELBILGILER+"\";";
-        String sorgu3="INSERT INTO "+TABLE_MUSTERI_HAREKETLER+" ('"+SUTUN_MUSTERI_HAREKETLER_ID+"') SELECT seq FROM sqlite_sequence WHERE name =\""+TABLE_MUSTERI_GENELBILGILER+"\";";
-        String sorgu4 ="SELECT seq from sqlite_sequence WHERE name = '"+ TABLE_MUSTERI_GENELBILGILER+ "'";
-	    try(Statement statement =baglanti.createStatement()
-        ){
-	        statement.addBatch(sorgu);
-	        statement.addBatch(sorgu2);
-	        statement.addBatch(sorgu3);
-            statement.executeBatch();
-            ResultSet sonuc = statement.executeQuery(sorgu4);
-            if(sonuc.next()) musteri.setId(sonuc.getInt("seq"));
-            return true;
-        }catch (SQLException e){
-            System.out.println("Musteri eklenirken hata meydana geldi");
-            e.printStackTrace();
-            return false;
-        }
-    }
+    public boolean musteriEkle(Musteri musteri) {
+		String sorgu = "INSERT INTO " + TABLE_MUSTERI_GENELBILGILER + " ( '" + SUTUN_MUSTERI_GEBELBILGILER_ADI + "','" + SUTUN_MUSTERI_GENELBILGILER_SOYADI + "','";
+		sorgu += SUTUN_MUSTERI_GENELBILGILER_SIFRESI + "','" + SUTUN_MUSTERI_GENELBILGILER_CINSIYETI + "','" + SUTUN_MUSTERI_GENELBILGILER_MEMNUNIYET + "','";
+		sorgu += SUTUN_MUSTERI_GENELBILGILER_YAGORANI + "','" + SUTUN_MUSTERI_GENELBILGILER_KASORANI + "','" + SUTUN_MUSTERI_GENELBILGILER_KUTLE + "','" + SUTUN_MUSTERI_GENELBILGILER_BOY + "')";
+		sorgu += " VALUES ('" + musteri.getIsim() + "','" + musteri.getSoyisim() + "','" + musteri.getSifre() + "'," + (int) musteri.getCinsiyet() + "," + musteri.getMemnuniyet() + ",";
+		sorgu += musteri.getYagOrani() + "," + musteri.getKasOrani() + "," + musteri.getKutle() + "," + musteri.getBoy() + ");";
+		String sorgu2 = "INSERT INTO " + TABLE_MUSTERI_DERSPROGRAMI + " ('" + SUTUN_MUSTERI_DERSPROGRAMI_ID + "') SELECT seq FROM sqlite_sequence WHERE name =\"" + TABLE_MUSTERI_GENELBILGILER + "\";";
+		String sorgu3 = "INSERT INTO " + TABLE_MUSTERI_HAREKETLER + " ('" + SUTUN_MUSTERI_HAREKETLER_ID + "') SELECT seq FROM sqlite_sequence WHERE name =\"" + TABLE_MUSTERI_GENELBILGILER + "\";";
+		String sorgu4 = "SELECT seq from sqlite_sequence WHERE name = '" + TABLE_MUSTERI_GENELBILGILER + "'";
+		try (Statement statement = baglanti.createStatement()
+		) {
+			statement.addBatch(sorgu);
+			statement.addBatch(sorgu2);
+			statement.addBatch(sorgu3);
+			statement.executeBatch();
+			ResultSet sonuc = statement.executeQuery(sorgu4);
+			if (sonuc.next()) musteri.setId(sonuc.getInt("seq"));
+			return true;
+		} catch (SQLException e) {
+			System.out.println("Musteri eklenirken hata meydana geldi");
+			e.printStackTrace();
+			return false;
+		}
+	}
+public boolean musteriyiGuncelle(Musteri musteri){
+	/* Bu fonksiyon ID'si verilen musterinin verilen dizideki haraketlerini veritabaninda gunceller*/
+	StringBuilder sorgu = new StringBuilder( "UPDATE " + TABLE_MUSTERI_GENELBILGILER + " SET ");
+	sorgu.append(SUTUN_MUSTERI_GEBELBILGILER_ADI +" = '"+musteri.getIsim()+"' , ");
+	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_SOYADI +" = '"+musteri.getSoyisim()+"' , ");
+	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_SIFRESI +" = '"+musteri.getSifre()+"' , ");
+	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_KASORANI +" = '"+musteri.getKasOrani()+"' , ");
+	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_CINSIYETI +" = "+(int)musteri.getCinsiyet()+" , ");
+	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_BOY +" = "+musteri.getBoy()+" , ");
+	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_MEMNUNIYET +" = "+musteri.getMemnuniyet()+",");
+	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_YAGORANI +" = "+musteri.getYagOrani()+" ");
+	sorgu.append(" WHERE "+ SUTUN_MUSTERI_HAREKETLER_ID +" = "+musteri.getId());
+	System.out.println(sorgu.toString());
+	try(Statement statement = baglanti.createStatement()
+	){
+		statement.executeUpdate(sorgu.toString());
+		System.out.println("Bilgiler Guncellendi");
+		return true;
+	}catch (SQLException e){
+		System.out.println("Bilgiler Guncellennirken bir sorunla karsilasildi.");
+		e.printStackTrace();
+		return false;
+	}
+}
 }

@@ -4,7 +4,6 @@ public class Test {
     public static void main (String args[]) {
         VeriTabani x = new VeriTabani();
         x.VeriTabaniniAc();
-        System.out.println("VeriTabani acildi");
         Musteri deneme = x.musteriyiBul(1,"123456");
         // a= x.musteriyiBul(1,"123456");
         //System.out.println(a.getId()+" "+a.getIsim()+" "+a.getHareketler1());
@@ -58,6 +57,8 @@ public class Test {
 
         x.musteriEkle(yeni);
         System.out.println(yeni.getId());
+        Yusuf.setIsim("Yusufadamdir");
+        x.musteriyiGuncelle(Yusuf);
         x.musteriHareketleriGuncelle(yeni.getId(),yeni.hareketProgramiOlustur(5));
         int [] tmp2 = {1,0,4,2,2,4,2};
         x.musteriDersPrograminiGuncelle(yeni.getId(),tmp2);
