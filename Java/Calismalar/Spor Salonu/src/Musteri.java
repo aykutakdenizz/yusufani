@@ -1,3 +1,5 @@
+import com.sun.xml.internal.bind.v2.model.core.ID;
+
 import java.util.HashMap;
 import java.util.Random;
 
@@ -204,5 +206,10 @@ public class Musteri extends Person{
 
     private String hareketStringiniDondur(int s, int s1, int s2, int s3, int s4, int s5) {
         return s+";"+s1+";"+s2+";"+s3+";"+s4+";"+s5+";";
+    }
+
+    @Override
+    public String toString() {
+        return "ID:"+ getId()+"Isim ve soyisim"+getIsim()+getSoyisim()+"Cinsiyet"+getCinsiyet()+"Kas orani"+getKasOrani()+"Yag orani"+getYagOrani();
     }
 }

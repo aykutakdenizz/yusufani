@@ -62,6 +62,7 @@ public class Test {
         x.musteriHareketleriGuncelle(yeni.getId(),yeni.hareketProgramiOlustur(5));
         int [] tmp2 = {1,0,4,2,2,4,2};
         x.musteriDersPrograminiGuncelle(yeni.getId(),tmp2);
+        x.tumMusterileriGetir();
         x.VeriTabaniniKapa();
 
     }

@@ -1,6 +1,9 @@
-import sun.nio.cs.ext.IBM037;
+
+
+import com.sun.org.apache.bcel.internal.generic.MULTIANEWARRAY;
 
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class VeriTabani {
@@ -362,6 +365,30 @@ public boolean musteriyiGuncelle(Musteri musteri){
 		System.out.println("Bilgiler Guncellennirken bir sorunla karsilasildi.");
 		e.printStackTrace();
 		return false;
+	}
+}
+public ArrayList<Musteri> tumMusterileriGetir(){
+	ArrayList<Musteri> musteriler = new ArrayList<>();
+		StringBuilder sb = new StringBuilder("SELECT * FROM "); //İlgili eleman veri tabanindan cekiliyor.
+	sb.append(TABLE_MUSTERI_GENELBILGILER);
+	try (Statement statement = baglanti.createStatement();
+		 ResultSet sonuc = statement.executeQuery(sb.toString())) {
+		while(sonuc.next()) {
+			Musteri eklenecekMusteri= new Musteri(sonuc.getString(SUTUN_MUSTERI_GEBELBILGILER_ADI),sonuc.getString(SUTUN_MUSTERI_GENELBILGILER_SOYADI),sonuc.getString(SUTUN_MUSTERI_GENELBILGILER_SIFRESI),(char)sonuc.getInt(SUTUN_MUSTERI_GENELBILGILER_CINSIYETI));
+			eklenecekMusteri.setId(sonuc.getInt(SUTUN_MUSTERI_GENELBILGILER_ID));
+			eklenecekMusteri.setKutle(sonuc.getDouble(SUTUN_MUSTERI_GENELBILGILER_KUTLE));
+			eklenecekMusteri.setBoy(sonuc.getInt(SUTUN_MUSTERI_GENELBILGILER_BOY));
+			eklenecekMusteri.setKasOrani(sonuc.getDouble(SUTUN_MUSTERI_GENELBILGILER_KASORANI));
+			eklenecekMusteri.setYagOrani(sonuc.getDouble(SUTUN_MUSTERI_GENELBILGILER_YAGORANI));
+			eklenecekMusteri.setMemnuniyet(sonuc.getInt(SUTUN_MUSTERI_GENELBILGILER_MEMNUNIYET));
+			System.out.println(eklenecekMusteri.toString());
+			musteriler.add(eklenecekMusteri);
+		}
+		return musteriler;
+	} catch (SQLException e){
+		System.out.println("Sorgu Basarisiz");
+		e.printStackTrace();
+		return null;
 	}
 }
 }
