@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class MaxMusteriSayisiException extends Exception {
 
-public class MaxMusteriSayisiException {
+    public MaxMusteriSayisiException(String message) {
+        super(message);
+    }
+
+    @Override
+    public void printStackTrace() {
+        super.printStackTrace();
+    }
 }

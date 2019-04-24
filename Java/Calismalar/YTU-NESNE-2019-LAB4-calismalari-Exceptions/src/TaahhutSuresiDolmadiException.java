@@ -1,5 +1,5 @@
-public class TahahhutSuresiDolmadiException extends  Exception {
-    public TahahhutSuresiDolmadiException(String message) {
+public class TaahhutSuresiDolmadiException extends  Exception {
+    public TaahhutSuresiDolmadiException(String message) {
         super(message);
     }
 
