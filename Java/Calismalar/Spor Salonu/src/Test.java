@@ -23,6 +23,8 @@ public class Test {
         }
         ///////////////////////////////
         Musteri Yusuf = x.musteriyiBul(1,"123456");
+        Yusuf.setCinsiyet('0');
+        System.out.println(Yusuf.getCinsiyet());
         Musteri ipek = x.musteriyiBul(3,"123456");
         Musteri Aykut = x.musteriyiBul(2,"123456");
         Musteri Faz = x.musteriyiBul(4,"123456");

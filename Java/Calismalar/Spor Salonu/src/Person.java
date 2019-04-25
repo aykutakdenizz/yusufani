@@ -46,7 +46,7 @@ public class Person {
 
     public void setCinsiyet(char cinsiyet) {
         this.cinsiyet = cinsiyet;
-        if(cinsiyet>1 || cinsiyet<0){
+        if(cinsiyet-48>1 || cinsiyet-48<0){
             System.out.println("Cinsiyet Erkek veya Kadin olabilir.");
             this.cinsiyet=0;
         }
