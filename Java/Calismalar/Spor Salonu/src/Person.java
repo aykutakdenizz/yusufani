@@ -8,7 +8,7 @@ public class Person {
         this.sifre = sifre;
         this.cinsiyet=cinsiyet;
     }
-
+    public Person(){};
     public int getId() {
         return id;
     }

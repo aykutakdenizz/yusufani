@@ -65,6 +65,7 @@ public class Test {
         int [] tmp2 = {1,0,4,2,2,4,2};
         x.musteriDersPrograminiGuncelle(yeni.getId(),tmp2);
         x.tumMusterileriGetir();
+        System.out.println(x.musteriIDgetir());
         x.VeriTabaniniKapa();
 
     }

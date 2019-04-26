@@ -18,6 +18,7 @@ public class Musteri extends Person{
         super( isim, soyisim, sifre,cinsiyet);
         memnuniyet=3; // Ortalama deger ile baslar herkes
     }
+    public Musteri(){};
     public String[] getHareketler() {
         return hareketler;
     }

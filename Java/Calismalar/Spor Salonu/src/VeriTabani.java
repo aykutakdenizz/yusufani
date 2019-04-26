@@ -391,4 +391,18 @@ public ArrayList<Musteri> tumMusterileriGetir(){
 		return null;
 	}
 }
+	public int musteriIDgetir( ) {
+		String sorgu = "SELECT seq  from sqlite_sequence where name='"+TABLE_MUSTERI_GENELBILGILER+"'";
+		System.out.println(sorgu);
+		try (Statement statement = baglanti.createStatement(); ResultSet sonuc = statement.executeQuery(sorgu)
+		) {
+
+			if (sonuc.next()) return Integer.parseInt(sonuc.getString(1));
+			else return 0;
+		} catch (SQLException e) {
+			System.out.println("Musteri id cekilemedi");
+			e.printStackTrace();
+			return 0;
+		}
+	}
 }
