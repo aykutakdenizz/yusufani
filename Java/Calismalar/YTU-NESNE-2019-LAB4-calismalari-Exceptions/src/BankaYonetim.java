@@ -1,7 +1,6 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
+import java.util.Collections;
 
 public class BankaYonetim {
     private int maxMusteriSayisi;
@@ -25,6 +24,7 @@ public class BankaYonetim {
         }
     }
     public void musteriEkle(Musteri [] x) throws MaxMusteriSayisiException {
+        Collections.addAll()
         if(x.length+musteriSayisi < maxMusteriSayisi){
             musteriler.addAll(Arrays.asList(x));
             musteriSayisi+=x.length;
