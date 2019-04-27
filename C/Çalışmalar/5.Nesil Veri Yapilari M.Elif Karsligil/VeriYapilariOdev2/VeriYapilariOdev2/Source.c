@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include  <string.h>
 typedef struct node{
-	int IDNo;
-	char *name, *surname;
-	int *friends;
-	int friendSize;
-	struct node *left, *right;
+	int IDNo; // Kullanýcýnýn kimli numarasýný tutan yapý
+	char *name, *surname; // Kullanýcýsýn ismi ve soyismini tutan yapýlar
+	int *friends; // Kullanýcýnýn arkadaslarýnýn ID numaralarýný tutan dinamik yapý
+	int friendSize; // Kullanýcýsýn arkadas sayýsýný tutan yapý
+	struct node *left, *right; // Kullanýcýnýn left ve right nodelarýný tutan yapý 
 	}Kullanici;
 Kullanici* createNewUser();
 Kullanici* insertNewUser(Kullanici * binary_tree, Kullanici* );
@@ -14,7 +14,7 @@ void treeYazdir(Kullanici *root,int i);
 Kullanici* contains(Kullanici* node, int TCNO);
 void friends(Kullanici * root, int TcNo);
 Kullanici* verileriOku(Kullanici *binaryTree);
-Kullanici* createKullanici();
+//Kullanici* createKullanici();
 void printNext( Kullanici *eleman, int i);
 void printGreator(Kullanici *eleman);
 void printInOrder(Kullanici* binaryTree);
@@ -28,6 +28,7 @@ int main()
 	int secim = 1;
 	while(secim)
 	{
+		system("CLS"); // Consol ekranýný temizleyen kod
 		printf("1->Insert New User\n2->Delete User \n3->Contains\n4->Friends\n5->Size\n6->Print Next\n7->Print Greater\n8->Print Inorder\n0->Exit\nLutfen secim yapiniz");
 		scanf("%d", &secim);
 		treeYazdir(binaryTree, 0);
@@ -87,14 +88,16 @@ int main()
 		case 8:
 			{
 			printInOrder(binaryTree);
+			break;
 			}
 		}
 	}
 
 }
 
-Kullanici* createKullanici()
+/*Kullanici* createKullanici()
 {
+	// Bu fonksiyon bir kullanýcýnýn tum ozelliklerini  alarak Kullanici * tipinde bir pointer olarak dondurur.
 	Kullanici *p;
 	int i;
 	p = (Kullanici*)malloc(sizeof(Kullanici));
@@ -119,7 +122,7 @@ Kullanici* createKullanici()
 	p->left = NULL;
 	p->right = NULL;
 	return p;
-}
+}*/
 
 Kullanici* insertNewUser(Kullanici* binaryTree, Kullanici* newNode)
 {
@@ -222,6 +225,7 @@ Kullanici* verileriOku(Kullanici *binaryTree)
 				}
 				else kullanici->friendSize = 0;
 				binaryTree=insertNewUser(binaryTree, kullanici);//Binary Tree'ye ekle
+				fclose(p);
 			}
 	}
 	return binaryTree;

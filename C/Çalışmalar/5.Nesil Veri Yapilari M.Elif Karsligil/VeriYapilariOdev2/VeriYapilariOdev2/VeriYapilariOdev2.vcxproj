@@ -113,7 +113,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.c" />
+    <ClCompile Include="SonHali.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Input.txt" />
