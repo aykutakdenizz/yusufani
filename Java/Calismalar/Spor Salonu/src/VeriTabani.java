@@ -323,19 +323,27 @@ public class VeriTabani {
 		String sorgu = "INSERT INTO " + TABLE_MUSTERI_GENELBILGILER + " ( '" + SUTUN_MUSTERI_GEBELBILGILER_ADI + "','" + SUTUN_MUSTERI_GENELBILGILER_SOYADI + "','";
 		sorgu += SUTUN_MUSTERI_GENELBILGILER_SIFRESI + "','" + SUTUN_MUSTERI_GENELBILGILER_CINSIYETI + "','" + SUTUN_MUSTERI_GENELBILGILER_MEMNUNIYET + "','";
 		sorgu += SUTUN_MUSTERI_GENELBILGILER_YAGORANI + "','" + SUTUN_MUSTERI_GENELBILGILER_KASORANI + "','" + SUTUN_MUSTERI_GENELBILGILER_KUTLE + "','" + SUTUN_MUSTERI_GENELBILGILER_BOY + "')";
-		sorgu += " VALUES ('" + musteri.getIsim() + "','" + musteri.getSoyisim() + "','" + musteri.getSifre() + "'," + (int) musteri.getCinsiyet() + "," + musteri.getMemnuniyet() + ",";
+		sorgu += " VALUES ('" + musteri.getIsim() + "','" + musteri.getSoyisim() + "','" + musteri.getSifre() + "'," + musteri.getCinsiyet() + "," + musteri.getMemnuniyet() + ",";
 		sorgu += musteri.getYagOrani() + "," + musteri.getKasOrani() + "," + musteri.getKutle() + "," + musteri.getBoy() + ");";
 		String sorgu2 = "INSERT INTO " + TABLE_MUSTERI_DERSPROGRAMI + " ('" + SUTUN_MUSTERI_DERSPROGRAMI_ID + "') SELECT seq FROM sqlite_sequence WHERE name =\"" + TABLE_MUSTERI_GENELBILGILER + "\";";
 		String sorgu3 = "INSERT INTO " + TABLE_MUSTERI_HAREKETLER + " ('" + SUTUN_MUSTERI_HAREKETLER_ID + "') SELECT seq FROM sqlite_sequence WHERE name =\"" + TABLE_MUSTERI_GENELBILGILER + "\";";
 		String sorgu4 = "SELECT seq from sqlite_sequence WHERE name = '" + TABLE_MUSTERI_GENELBILGILER + "'";
+		System.out.println("-"+musteri.getSifre()+"-");
+		System.out.println(sorgu);
 		try (Statement statement = baglanti.createStatement()
 		) {
 			statement.addBatch(sorgu);
+			System.out.println("Hata");
 			statement.addBatch(sorgu2);
+			System.out.println("Hata2");
 			statement.addBatch(sorgu3);
+			System.out.println("Hata3");
 			statement.executeBatch();
+			System.out.println("Hata4");
 			ResultSet sonuc = statement.executeQuery(sorgu4);
+			System.out.println("Hata5");
 			if (sonuc.next()) musteri.setId(sonuc.getInt("seq"));
+			System.out.println("Hata6");
 			return true;
 		} catch (SQLException e) {
 			System.out.println("Musteri eklenirken hata meydana geldi");

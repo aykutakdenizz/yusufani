@@ -123,7 +123,7 @@ public class Musteri extends Person{
                 hareketler[0]=bacakOmuz;
                 hareketler[2]=gogusArkaKol;
                 hareketler[4]=sirtOnKol;
-                hareketler[1+2*random.nextInt(4)]=kardiyo;
+                hareketler[1+2*random.nextInt(3)]=kardiyo;
             }
             else if (gunSayisi == 1){
                 hareketler[random.nextInt(7)]=kardiyo;
