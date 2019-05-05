@@ -45,12 +45,12 @@ public class RandomUretici {
 	public void randomIsim(Musteri kisi) {
 		//rastgele cinsiyet üretilip erkek ya da kadın isimlerinin dosyasına ulaşılıyor.
 		RandomUretici random=new RandomUretici();
-		char cinsiyet=kisi.getCinsiyet();
+		String cinsiyet=kisi.getCinsiyet();
 
-		if(cinsiyet=='0') {
+		if(cinsiyet.equals("Erkek")) {
 			kisi.setIsim(randDosyaOkuyucu(dosya_erkek_isim));
 		}
-		else if(cinsiyet=='1') {
+		else if(cinsiyet.equals("Kadın")) {
 			kisi.setIsim(randDosyaOkuyucu(dosya_kadin_isim));
 		}
 		else {
@@ -62,21 +62,20 @@ public class RandomUretici {
 		kisi.setSoyisim(randDosyaOkuyucu(dosya_soyisim));
 	}
 
-	public char randomCinsiyet(Musteri kisi) {
+	public String randomCinsiyet(Musteri kisi) {
 		Random rand = new Random();
 		int cinsiyet=rand.nextInt(2);
-		String s=Integer.toString(cinsiyet);
-		char c=s.charAt(0);
-		kisi.setCinsiyet(c);
-		return c;
+		if(cinsiyet== 0 ) kisi.setCinsiyet("Erkek");
+		else kisi.setCinsiyet("Kadın");
+		return kisi.getCinsiyet();
 	}
 	public void randomBoy(Musteri kisi) {
 		Random rand = new Random();
-		if(kisi.getCinsiyet()=='0') {
+		if(kisi.getCinsiyet().equals("Erkek")) {
 			int boy = rand.nextInt(36);
 			kisi.setBoy(boy+155);
 		}
-		else if(kisi.getCinsiyet()=='1'){
+		else if(kisi.getCinsiyet().equals("Kadın")){
 			int boy = rand.nextInt(36);
 			kisi.setBoy(boy+150);
 		}
@@ -91,13 +90,13 @@ public class RandomUretici {
 	}
 	public void randomKasOrani(Musteri kisi) {
 		Random rand = new Random();
-		if(kisi.getCinsiyet()=='0') {
+		if(kisi.getCinsiyet().equals("Erkek")) {
 			double kas = rand.nextDouble();//32-40 arası erkekte
 			kas=kas*8;
 			kas= Math.round(kas* 10) / 10.0;
 			kisi.setKasOrani(32+kas);
 		}
-		else if(kisi.getCinsiyet()=='1') {
+		else if(kisi.getCinsiyet().equals("Kadın")) {
 			double kas = rand.nextDouble();//23-31 arası kadinda
 			kas=kas*8;
 			kas= Math.round(kas* 10) / 10.0;
@@ -109,13 +108,13 @@ public class RandomUretici {
 	}
 	public void randomKutle(Musteri kisi) {
 		Random rand = new Random();
-		if(kisi.getCinsiyet()=='0') {
+		if(kisi.getCinsiyet().equals("Erkek")) {
 			double kutle = rand.nextDouble();//50-120 arası erkekte tahmini
 			kutle=kutle*70;
 			kutle= Math.round(kutle* 10) / 10.0;
 			kisi.setKutle(50+kutle);
 		}
-		else if(kisi.getCinsiyet()=='1') {
+		else if(kisi.getCinsiyet().equals("Kadın")) {
 			double kutle = rand.nextDouble();//40-90 arası kadinda tahmini
 			kutle=kutle*50;
 			kutle= Math.round(kutle* 10) / 10.0;
@@ -127,13 +126,13 @@ public class RandomUretici {
 	}
 	public void randomYagOrani(Musteri kisi) {
 		Random rand = new Random();
-		if(kisi.getCinsiyet()=='0') {
+		if(kisi.getCinsiyet().equals("Erkek")) {
 			double yag = rand.nextDouble();//6-30 arası erkekte
 			yag=yag*24;
 			yag= Math.round(yag* 10) / 10.0;
 			kisi.setYagOrani(6+yag);
 		}
-		else if(kisi.getCinsiyet()=='1') {
+		else if(kisi.getCinsiyet().equals("Kadın")) {
 			double yag = rand.nextDouble();//14-32 arası kadinda
 			yag=yag*18;
 			yag= Math.round(yag* 10) / 10.0;

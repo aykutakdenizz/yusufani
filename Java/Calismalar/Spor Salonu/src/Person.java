@@ -1,8 +1,8 @@
 public class Person {
     private int id;
     private String isim,soyisim,sifre;
-    private char cinsiyet;// ERKEK -> 0 KADIN ->1
-    public Person(String isim, String soyisim, String sifre,char cinsiyet) {
+    private String cinsiyet;// ERKEK -> 0 KADIN ->1
+    public Person(String isim, String soyisim, String sifre,String cinsiyet) {
         this.isim = isim;
         this.soyisim = soyisim;
         this.sifre = sifre;
@@ -40,15 +40,15 @@ public class Person {
     public void setSifre(String sifre) {
         this.sifre = sifre;
     }
-    public char getCinsiyet() {
+    public String getCinsiyet() {
         return cinsiyet;
     }
 
-    public void setCinsiyet(char cinsiyet) {
+    public void setCinsiyet(String cinsiyet) {
         this.cinsiyet = cinsiyet;
-        if(cinsiyet-48>1 || cinsiyet-48<0){
+        if(cinsiyet.equals("Erkek") || cinsiyet.equals("Kadın")){
             System.out.println("Cinsiyet Erkek veya Kadin olabilir.");
-            this.cinsiyet=0;
+            this.cinsiyet="Erkek";
         }
     }
 }

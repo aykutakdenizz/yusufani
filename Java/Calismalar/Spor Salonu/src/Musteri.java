@@ -14,7 +14,7 @@ public class Musteri extends Person{
     public int[] getDersProgrami() {
         return dersProgrami;
     }
-    public Musteri(String isim, String soyisim, String sifre,char cinsiyet) {
+    public Musteri(String isim, String soyisim, String sifre,String cinsiyet) {
         super( isim, soyisim, sifre,cinsiyet);
         memnuniyet=3; // Ortalama deger ile baslar herkes
     }
@@ -112,7 +112,10 @@ public class Musteri extends Person{
         }
         String kardiyo=hareketStringiniDondur(37,38,39,40,41,42);//Kardiyo Programı
         int index= random.nextInt(2)+1;
-        if ((getYagOrani() < 17+6*getCinsiyet()) && getKasOrani() > (36-getCinsiyet()*10 )  ){
+        int tmp;
+        if(getCinsiyet().equals("Erkek")) tmp=0;
+        else tmp=1;
+        if ((getYagOrani() < 17+6*tmp) && getKasOrani() > (36-tmp*10 )  ){
             mesaj.append("bolgesel antrenman tipidir.");
             System.out.println(mesaj);
             System.out.println("Sizin için uygun antrenman programı su sekildedir");
@@ -129,7 +132,8 @@ public class Musteri extends Person{
                 hareketler[random.nextInt(7)]=kardiyo;
             }
             else if ( gunSayisi == 2){
-                int tmp=random.nextInt(7),tmp2;
+                int tmp2;
+                 tmp=random.nextInt(7);
                 while(tmp== (tmp2=random.nextInt(7)));
                 hareketler[tmp]=kardiyo;
                 hareketler[tmp2]=kardiyo;
@@ -138,7 +142,8 @@ public class Musteri extends Person{
                 hareketler[1]=bacakOmuz;
                 hareketler[3]=gogusArkaKol;
                 hareketler[5]=sirtOnKol;
-                int tmp =2*random.nextInt(4),tmp2;
+                tmp =2*random.nextInt(4);
+                int tmp2;
                 hareketler[tmp]=kardiyo;
                 while(tmp ==( tmp2=2*random.nextInt(4)));
                 hareketler[tmp2]=kardiyo;
@@ -173,7 +178,8 @@ public class Musteri extends Person{
             }
             else if ( gunSayisi == 2){
 
-                int tmp=random.nextInt(7),tmp2;
+                tmp=random.nextInt(7);
+                int tmp2;
                 while(tmp== (tmp2=random.nextInt(7)));
                 hareketler[tmp]=kardiyo;
                 hareketler[tmp2]=kardiyo;
@@ -182,7 +188,8 @@ public class Musteri extends Person{
                 hareketler[2]=fullBody;
                 hareketler[4]=fullBody;
                 hareketler[6]=fullBody;
-                int tmp =2*random.nextInt(3)+1,tmp2;
+                tmp =2*random.nextInt(3)+1;
+                        int tmp2;
                 hareketler[tmp]= kardiyo;
                 while(tmp!=( tmp2=1+(2*random.nextInt(3))));
                 hareketler[tmp2]=kardiyo;
@@ -211,6 +218,6 @@ public class Musteri extends Person{
 
     @Override
     public String toString() {
-        return "ID:"+ getId()+"Isim ve soyisim"+getIsim()+getSoyisim()+"Cinsiyet"+getCinsiyet()+"Kas orani"+getKasOrani()+"Yag orani"+getYagOrani();
+        return "ID:"+ getId()+"Isim ve soyisim="+getIsim()+getSoyisim()+"Cinsiyet="+getCinsiyet()+"Kas orani="+getKasOrani()+"Yag orani="+getYagOrani();
     }
 }

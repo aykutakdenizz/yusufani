@@ -45,7 +45,7 @@ public class VeriTabani {
 	public static final String SUTUN_MUSTERI_DERSPROGRAMI_CUMA = "Cuma";
 	public static final String SUTUN_MUSTERI_DERSPROGRAMI_CUMARTESI = "Cumartesi";
 	public static final String SUTUN_MUSTERI_DERSPROGRAMI_PAZAR = "Pazar";
-    public static final String SUTUN_HAREKET_VE_ALETLER_INDIS = "Hareket_Ä°ndisi";
+    public static final String SUTUN_HAREKET_VE_ALETLER_INDIS = "Hareket_Ýndisi";
     public static final String SUTUN_HAREKET_VE_ALETLER_HAREKET_ADI = "Hareket_Adi";
     public static final String SUTUN_HAREKET_VE_ALETLER_CALISAN_BOLGE = "Calistirilan_Bolge";
     public static final String SUTUN_HAREKET_VE_ALETLER_ALET_ADI = "Alet";
@@ -78,16 +78,16 @@ public class VeriTabani {
 		}
 	}
 	public Musteri musteriyiBul(int customerID,String password) {
-		/*Bu fonksiyon ID'si ve Sifresi verilen Musteriyi bulup Musteri classÄ±ndan
-		bir objesinin alanlarÄ±nÄ± dondurerek return eder.*/
+		/*Bu fonksiyon ID'si ve Sifresi verilen Musteriyi bulup Musteri classýndan
+		bir objesinin alanlarýný dondurerek return eder.*/
 		boolean flag = true;
-		StringBuilder sb = new StringBuilder("SELECT * FROM "); //Ä°lgili eleman veri tabanindan cekiliyor.
+		StringBuilder sb = new StringBuilder("SELECT * FROM "); //Ýlgili eleman veri tabanindan cekiliyor.
 		sb.append(TABLE_MUSTERI_GENELBILGILER+" "+"INNER JOIN "+TABLE_MUSTERI_HAREKETLER+","+TABLE_MUSTERI_DERSPROGRAMI+" ON "+TABLE_MUSTERI_GENELBILGILER+"."+SUTUN_MUSTERI_GENELBILGILER_ID+"="+TABLE_MUSTERI_HAREKETLER+"."+ SUTUN_MUSTERI_HAREKETLER_ID +"="+TABLE_MUSTERI_DERSPROGRAMI+"."+ SUTUN_MUSTERI_DERSPROGRAMI_ID);
-		sb.append(" WHERE "+TABLE_MUSTERI_GENELBILGILER+"."+SUTUN_MUSTERI_GENELBILGILER_ID+" = "+customerID+ " AND "+TABLE_MUSTERI_GENELBILGILER+"."+SUTUN_MUSTERI_GENELBILGILER_SIFRESI+" = "+password);
+		sb.append(" WHERE "+TABLE_MUSTERI_GENELBILGILER+"."+SUTUN_MUSTERI_GENELBILGILER_ID+" = "+customerID+ " AND "+TABLE_MUSTERI_GENELBILGILER+"."+SUTUN_MUSTERI_GENELBILGILER_SIFRESI+" = '"+password+"'");
 		try (Statement statement = baglanti.createStatement();
 			 ResultSet sonuc = statement.executeQuery(sb.toString())) {
 			if(sonuc.next()) {
-				Musteri musteri = new Musteri( sonuc.getString(SUTUN_MUSTERI_GEBELBILGILER_ADI), sonuc.getString(SUTUN_MUSTERI_GENELBILGILER_SOYADI), sonuc.getString(SUTUN_MUSTERI_GENELBILGILER_SIFRESI),(char) sonuc.getInt(SUTUN_MUSTERI_GENELBILGILER_CINSIYETI));
+				Musteri musteri = new Musteri( sonuc.getString(SUTUN_MUSTERI_GEBELBILGILER_ADI), sonuc.getString(SUTUN_MUSTERI_GENELBILGILER_SOYADI), sonuc.getString(SUTUN_MUSTERI_GENELBILGILER_SIFRESI),sonuc.getString(SUTUN_MUSTERI_GENELBILGILER_CINSIYETI));
 				musteri.setId(sonuc.getInt(SUTUN_MUSTERI_GENELBILGILER_ID));
 				musteri.setBoy((char) sonuc.getInt(SUTUN_MUSTERI_GENELBILGILER_BOY));
 				musteri.setKasOrani(sonuc.getDouble(SUTUN_MUSTERI_GENELBILGILER_KASORANI));
@@ -164,9 +164,9 @@ public class VeriTabani {
 		}
 	}
 	public int[][] salonDolulukHistgorami(){
-		/* BU fonksiyon salonun gÃ¼ne ve saate gÃ¶re doluluk oranlarÄ±nÄ± tutan histogramÄ±nÄ± bulur ve return eder
-		Not: KullanÄ±m kolaylÄ±ÄŸÄ± olmasÄ± iÃ§in histogramda ilk satÄ±r Ã¶nemsiz veriyi kapsar.
-		Saat aralÄ±klarÄ±:
+		/* BU fonksiyon salonun güne ve saate göre doluluk oranlarýný tutan histogramýný bulur ve return eder
+		Not: Kullaným kolaylýðý olmasý için histogramda ilk satýr önemsiz veriyi kapsar.
+		Saat aralýklarý:
 		07.00-11.00 -> histogram[1][x] indisine
 		11.00-15.00 -> histogram[2][x] indisine
 		15.00-19.00 -> histogram[3][x] indisine
@@ -221,7 +221,7 @@ public class VeriTabani {
 				return toplam;
 		}
 		catch (SQLException e){
-			System.out.println("Ortalama Memnuniyet hesaplanÄ±rken bir sorun ortaya cikti");
+			System.out.println("Ortalama Memnuniyet hesaplanýrken bir sorun ortaya cikti");
 			e.printStackTrace();
 			return 0.0;
 		}
@@ -237,7 +237,7 @@ public class VeriTabani {
             hareketler.put(sonuc.getInt(SUTUN_HAREKET_VE_ALETLER_INDIS),sonuc.getString(SUTUN_HAREKET_VE_ALETLER_HAREKET_ADI));
         }
     }catch (SQLException e){
-        System.out.println("Spor Hareketleri ve indisleri alÄ±nÄ±rken bir hata meydana geldi");
+        System.out.println("Spor Hareketleri ve indisleri alýnýrken bir hata meydana geldi");
         e.printStackTrace();
     }
     return hareketler;
@@ -253,22 +253,22 @@ public class VeriTabani {
                 hareketler.put(sonuc.getInt(SUTUN_HAREKET_VE_ALETLER_INDIS),sonuc.getString(SUTUN_HAREKET_VE_ALETLER_ALET_ADI));
             }
         }catch (SQLException e){
-            System.out.println("Spor Hareketleri indisleri ve aletleri alÄ±nÄ±rken bir hata meydana geldi");
+            System.out.println("Spor Hareketleri indisleri ve aletleri alýnýrken bir hata meydana geldi");
             e.printStackTrace();
         }
         return hareketler;
     }
     public Personel personeliBul(int personelID,String password) {
-		/*Bu fonksiyon ID'si ve Sifresi verilen Musteriyi bulup Musteri classÄ±ndan
-		bir objesinin alanlarÄ±nÄ± dondurerek return eder.*/
+		/*Bu fonksiyon ID'si ve Sifresi verilen Musteriyi bulup Musteri classýndan
+		bir objesinin alanlarýný dondurerek return eder.*/
         boolean flag = true;
-        StringBuilder sb = new StringBuilder("SELECT * FROM "); //Ä°lgili eleman veri tabanindan cekiliyor.
+        StringBuilder sb = new StringBuilder("SELECT * FROM "); //Ýlgili eleman veri tabanindan cekiliyor.
         sb.append(TABLE_PERSONEL_GENEL_BILGILER);
         sb.append(" WHERE "+TABLE_PERSONEL_GENEL_BILGILER+"."+SUTUN_PERSONEL_GENELBILGILER_ID+" = "+personelID+ " AND "+TABLE_PERSONEL_GENEL_BILGILER+"."+SUTUN_PERSONEL_GENELBILGILER_SIFRESI+" = "+password);
         try (Statement statement = baglanti.createStatement();
              ResultSet sonuc = statement.executeQuery(sb.toString())) {
             if(sonuc.next()) {
-                Personel personel = new Personel( sonuc.getString(SUTUN_PERSONEL_GEBELBILGILER_ADI), sonuc.getString(SUTUN_PERSONEL_GENELBILGILER_SOYADI), sonuc.getString(SUTUN_PERSONEL_GENELBILGILER_SIFRESI),(char) sonuc.getInt(SUTUN_PERSONEL_GENELBILGILER_CINSIYETI));
+                Personel personel = new Personel( sonuc.getString(SUTUN_PERSONEL_GEBELBILGILER_ADI), sonuc.getString(SUTUN_PERSONEL_GENELBILGILER_SOYADI), sonuc.getString(SUTUN_PERSONEL_GENELBILGILER_SIFRESI), sonuc.getString(SUTUN_PERSONEL_GENELBILGILER_CINSIYETI));
                 personel.setId(sonuc.getInt(SUTUN_PERSONEL_GENELBILGILER_ID));
                 return personel;
             }
@@ -284,7 +284,7 @@ public class VeriTabani {
     }
     public HashMap<String,Integer> aletdolulukOranlari(HashMap<Integer,String> hareketeKarsilikGelenAlet){
 	    HashMap<String,Integer> aletler = new HashMap<>();
-        StringBuilder sb = new StringBuilder("SELECT * FROM "); //Ä°lgili eleman veri tabanindan cekiliyor.
+        StringBuilder sb = new StringBuilder("SELECT * FROM "); //Ýlgili eleman veri tabanindan cekiliyor.
         sb.append(TABLE_MUSTERI_HAREKETLER);
         try (Statement statement = baglanti.createStatement();
              ResultSet sonuc = statement.executeQuery(sb.toString())) {
@@ -323,7 +323,7 @@ public class VeriTabani {
 		String sorgu = "INSERT INTO " + TABLE_MUSTERI_GENELBILGILER + " ( '" + SUTUN_MUSTERI_GEBELBILGILER_ADI + "','" + SUTUN_MUSTERI_GENELBILGILER_SOYADI + "','";
 		sorgu += SUTUN_MUSTERI_GENELBILGILER_SIFRESI + "','" + SUTUN_MUSTERI_GENELBILGILER_CINSIYETI + "','" + SUTUN_MUSTERI_GENELBILGILER_MEMNUNIYET + "','";
 		sorgu += SUTUN_MUSTERI_GENELBILGILER_YAGORANI + "','" + SUTUN_MUSTERI_GENELBILGILER_KASORANI + "','" + SUTUN_MUSTERI_GENELBILGILER_KUTLE + "','" + SUTUN_MUSTERI_GENELBILGILER_BOY + "')";
-		sorgu += " VALUES ('" + musteri.getIsim() + "','" + musteri.getSoyisim() + "','" + musteri.getSifre() + "'," + musteri.getCinsiyet() + "," + musteri.getMemnuniyet() + ",";
+		sorgu += " VALUES ('" + musteri.getIsim() + "','" + musteri.getSoyisim() + "','" + musteri.getSifre() + "','" + musteri.getCinsiyet() + "'," + musteri.getMemnuniyet() + ",";
 		sorgu += musteri.getYagOrani() + "," + musteri.getKasOrani() + "," + musteri.getKutle() + "," + musteri.getBoy() + ");";
 		String sorgu2 = "INSERT INTO " + TABLE_MUSTERI_DERSPROGRAMI + " ('" + SUTUN_MUSTERI_DERSPROGRAMI_ID + "') SELECT seq FROM sqlite_sequence WHERE name =\"" + TABLE_MUSTERI_GENELBILGILER + "\";";
 		String sorgu3 = "INSERT INTO " + TABLE_MUSTERI_HAREKETLER + " ('" + SUTUN_MUSTERI_HAREKETLER_ID + "') SELECT seq FROM sqlite_sequence WHERE name =\"" + TABLE_MUSTERI_GENELBILGILER + "\";";
@@ -358,7 +358,7 @@ public boolean musteriyiGuncelle(Musteri musteri){
 	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_SOYADI +" = '"+musteri.getSoyisim()+"' , ");
 	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_SIFRESI +" = '"+musteri.getSifre()+"' , ");
 	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_KASORANI +" = '"+musteri.getKasOrani()+"' , ");
-	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_CINSIYETI +" = "+(int)musteri.getCinsiyet()+" , ");
+	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_CINSIYETI +" = '"+musteri.getCinsiyet()+"' , ");
 	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_BOY +" = "+musteri.getBoy()+" , ");
 	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_MEMNUNIYET +" = "+musteri.getMemnuniyet()+",");
 	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_YAGORANI +" = "+musteri.getYagOrani()+" ");
@@ -377,12 +377,12 @@ public boolean musteriyiGuncelle(Musteri musteri){
 }
 public ArrayList<Musteri> tumMusterileriGetir(){
 	ArrayList<Musteri> musteriler = new ArrayList<>();
-		StringBuilder sb = new StringBuilder("SELECT * FROM "); //Ä°lgili eleman veri tabanindan cekiliyor.
+		StringBuilder sb = new StringBuilder("SELECT * FROM "); //Ýlgili eleman veri tabanindan cekiliyor.
 	sb.append(TABLE_MUSTERI_GENELBILGILER);
 	try (Statement statement = baglanti.createStatement();
 		 ResultSet sonuc = statement.executeQuery(sb.toString())) {
 		while(sonuc.next()) {
-			Musteri eklenecekMusteri= new Musteri(sonuc.getString(SUTUN_MUSTERI_GEBELBILGILER_ADI),sonuc.getString(SUTUN_MUSTERI_GENELBILGILER_SOYADI),sonuc.getString(SUTUN_MUSTERI_GENELBILGILER_SIFRESI),(char)sonuc.getInt(SUTUN_MUSTERI_GENELBILGILER_CINSIYETI));
+			Musteri eklenecekMusteri= new Musteri(sonuc.getString(SUTUN_MUSTERI_GEBELBILGILER_ADI),sonuc.getString(SUTUN_MUSTERI_GENELBILGILER_SOYADI),sonuc.getString(SUTUN_MUSTERI_GENELBILGILER_SIFRESI),sonuc.getString(SUTUN_MUSTERI_GENELBILGILER_CINSIYETI));
 			eklenecekMusteri.setId(sonuc.getInt(SUTUN_MUSTERI_GENELBILGILER_ID));
 			eklenecekMusteri.setKutle(sonuc.getDouble(SUTUN_MUSTERI_GENELBILGILER_KUTLE));
 			eklenecekMusteri.setBoy(sonuc.getInt(SUTUN_MUSTERI_GENELBILGILER_BOY));

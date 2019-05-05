@@ -1,5 +1,5 @@
 public class Personel extends Person {
-    public Personel( String isim, String soyisim, String sifre, char cinsiyet) {
+    public Personel( String isim, String soyisim, String sifre, String cinsiyet) {
         super( isim, soyisim, sifre, cinsiyet);
     }
     public double ortalamaMemnuniyetDuzeyiGoruntule(VeriTabani x){
@@ -8,10 +8,7 @@ public class Personel extends Person {
 
     @Override
     public String toString() {
-        String tmp= getId()+"\t"+getIsim()+" "+getSoyisim()+"\t";
-        if (getCinsiyet() == 0) tmp+="Erkek";
-        else tmp+="Kadin";
-        return tmp;
+        return  getId()+"\t"+getIsim()+" "+getSoyisim()+"\t+"+getCinsiyet();
     }
 
 }

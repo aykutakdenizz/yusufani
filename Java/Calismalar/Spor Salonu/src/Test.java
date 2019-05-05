@@ -22,8 +22,11 @@ public class Test {
             System.out.println("\n");
         }
         ///////////////////////////////
+        System.out.println("Buradayiz");
         Musteri Yusuf = x.musteriyiBul(1,"123456");
-        Yusuf.setCinsiyet('0');
+        Musteri aykutunistedigi = x.musteriyiBul(16011241,"gmgceh");
+        System.out.println(aykutunistedigi.toString());
+        Yusuf.setCinsiyet("Erkek");
         System.out.println(Yusuf.getCinsiyet());
         Musteri ipek = x.musteriyiBul(3,"123456");
         Musteri Aykut = x.musteriyiBul(2,"123456");
@@ -50,7 +53,7 @@ public class Test {
         System.out.println(x.aletdolulukOranlari(x.getSporIndisAlet()));
         //////////////////////////////////////////
         //Musteri yazma
-        Musteri yeni = new Musteri("Hayri","Mehmet","123456",'0');
+        Musteri yeni = new Musteri("Hayri","Mehmet","123456","Erkek");
         yeni.setYagOrani(13.0);
         yeni.setKutle(78);
         yeni.setKasOrani(35);
