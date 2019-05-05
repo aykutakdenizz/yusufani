@@ -4,7 +4,8 @@ public class Test {
     public static void main (String args[]) {
         VeriTabani x = new VeriTabani();
         x.VeriTabaniniAc();
-       Musteri deneme = x.musteriyiBul(1,"123456");
+       Musteri deneme = x.musteriyiBul(16011108,"beqhoj");
+        System.out.println(deneme.toString()+"  "+deneme.getDersProgrami()[0]+deneme.getHareketler()[2]);
         // a= x.musteriyiBul(1,"123456");
         //System.out.println(a.getId()+" "+a.getIsim()+" "+a.getHareketler1());
         /*a.dersProgramiOlustur(x);

@@ -3,10 +3,31 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" line="24" />
     <bookmark url="file://$PROJECT_DIR$/YTU-Nesne-2019-Lab3-Calismalari-Collections/src/Ogrenim/main.java" line="6" />
-    <bookmark url="file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" line="292" />
+    <bookmark url="file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" line="294" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="640accf1-411a-4d9b-a0b5-884efd0483ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/_img_login_password_1172720.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/Musteri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/MusteriEklemeScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/MusteriEklemeSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/MusteriScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/MusteriSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/Personel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/PersonelScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/PersonelSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/ProgramOlusturScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/ProgramOlusturSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/RandomUretici.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/RandomUreticiIcinMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/VeriTabani.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/WelcomeScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/musteri.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/sample/sqlite-jdbc-3.27.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/user-login-man-human-body-mobile-person-512.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/.vs/AgaciHeapYapma/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/.vs/AgaciHeapYapma/v15/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/.vs/AgaciHeapYapma/v15/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/.vs/AgaciHeapYapma/v15/Browse.VC.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/.vs/Binary Search Algorithms/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/.vs/Binary Search Algorithms/v15/.suo" afterDir="false" />
@@ -38,9 +59,6 @@
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.python.pydev.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.python.pydev.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spor Salonu/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spor Salonu/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" afterDir="false" />
@@ -53,10 +71,11 @@
       <change beforePath="$PROJECT_DIR$/YTU-Nesne-2.Vize -Calismalari/src/Vize2017/Passport.java" beforeDir="false" afterPath="$PROJECT_DIR$/YTU-Nesne-2.Vize -Calismalari/src/Vize2017/Passport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YTU-Nesne-2.Vize -Calismalari/src/Vize2017/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/YTU-Nesne-2.Vize -Calismalari/src/Vize2017/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YTU-Nesne-2.Vize -Calismalari/src/Vize2017/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/YTU-Nesne-2.Vize -Calismalari/src/Vize2017/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musteri.db" beforeDir="false" afterPath="$PROJECT_DIR$/musteri.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musteri.db-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musteri.db" beforeDir="false" afterPath="$PROJECT_DIR$/../SporSalonuSistemi/src/musteri.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spor Salonu/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spor Salonu/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/YTU-Nesne-2019-Lab3-Calismalari-Collections/LabOncesiOrnekSoru/BellekYonetimi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YTU-Nesne-2019-Lab3-Calismalari-Collections/LabOncesiOrnekSoru/BellekYonetimi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/YTU-Nesne-2019-Lab3-Calismalari-Collections/Ogrenim/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YTU-Nesne-2019-Lab3-Calismalari-Collections/Ogrenim/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Kemik/Optimizing Deep Q Learning/CartpoleWithDoubleDeepQ/cartpole_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Kemik/Optimizing Deep Q Learning/CartpoleWithDoubleDeepQ/cartpole_env.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,10 +104,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Test.java">
+        <entry file="file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
+            <state relative-caret-position="243">
+              <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -100,6 +119,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -157,49 +177,48 @@
         <option value="$PROJECT_DIR$/Spor Salonu/src/Musteri.java" />
         <option value="$PROJECT_DIR$/Spor Salonu/src/RandomUretici.java" />
         <option value="$PROJECT_DIR$/Spor Salonu/src/Personel.java" />
-        <option value="$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" />
+        <option value="$PROJECT_DIR$/Spor Salonu/src/SporSalonuSistemi.java" />
         <option value="$PROJECT_DIR$/Spor Salonu/src/Test.java" />
+        <option value="$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-526" />
-    <option name="y" value="-22" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="x" value="-429" />
+    <option name="y" value="-13" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="Calismalar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Calismalar" type="462c0819:PsiDirectoryNode" />
+              <item name="Calismalar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Calismalar" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="Calismalar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Calismalar" type="462c0819:PsiDirectoryNode" />
-              <item name="Spor Salonu" type="462c0819:PsiDirectoryNode" />
+              <item name="Calismalar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Spor Salonu" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="Calismalar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Calismalar" type="462c0819:PsiDirectoryNode" />
-              <item name="Spor Salonu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Calismalar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Spor Salonu" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,6 +227,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -215,7 +235,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -325,12 +345,14 @@
       <workItem from="1556525817228" duration="425000" />
       <workItem from="1556616616553" duration="854000" />
       <workItem from="1556710980644" duration="7520000" />
-      <workItem from="1557080793968" duration="5282000" />
+      <workItem from="1557080793968" duration="6675000" />
+      <workItem from="1557090552327" duration="969000" />
+      <workItem from="1557093709790" duration="1675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117340000" />
+    <option name="totallyTimeSpent" value="121377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -345,8 +367,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.09293681" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49722221" visible="true" weight="0.5125926" />
-      <window_info anchor="bottom" x="1405" y="584" width="1366" height="768" id="Debug" order="3" sideWeight="0.4978038" weight="0.3525926" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49722221" visible="true" weight="0.29185185" />
+      <window_info anchor="bottom" x="1405" y="584" width="1366" height="768" id="Debug" order="3" sideWeight="0.4978038" weight="0.5140741" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -447,13 +469,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java</url>
-          <line>333</line>
+          <line>335</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java</url>
-          <line>337</line>
+          <line>339</line>
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
@@ -495,27 +517,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Spor Salonu/src/Test.java</url>
-          <line>26</line>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Spor Salonu/src/Test.java</url>
-          <line>46</line>
+          <line>47</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Spor Salonu/src/Test.java</url>
-          <line>23</line>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java</url>
-          <line>300</line>
+          <line>302</line>
           <properties />
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spor Salonu/src/Test.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -540,23 +574,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/YTU-NESNE-2019-LAB4-calismalari-Exceptions/src/Standart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YTU-NESNE-2019-LAB4-calismalari-Exceptions/src/YetersizPuanException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/YTU-NESNE-2019-LAB4-calismalari-Exceptions/src/TaahhutSuresiDolmadiException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -785,37 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/core/DB.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#1186#1187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/SQLiteConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="270" selection-start-line="270" selection-end-line="270" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4ResultSet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4Statement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/YTU-Nesne-2.Vize -Calismalari/src/Vize2017/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -823,27 +809,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Musteri.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="220" column="136" selection-start-line="220" selection-start-column="136" selection-end-line="220" selection-end-column="136" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Spor Salonu/src/SporSalonuSistemi.java" />
     <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Personel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -868,20 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/core/CoreStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4Connection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc3/JDBC3Connection.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -889,31 +841,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc3/JDBC3Statement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc3/JDBC3ResultSet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="299" selection-start-line="299" selection-end-line="299" />
+        <state relative-caret-position="145">
+          <caret line="273" selection-start-line="273" selection-end-line="273" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java">
+    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4Connection.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1441">
-          <caret line="300" selection-start-line="300" selection-end-line="300" />
+        <state relative-caret-position="145">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/core/CoreResultSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4ResultSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/SQLiteConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
+          <folding>
+            <element signature="e#8271#8272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/core/DB.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/core/CoreStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc3/JDBC3Statement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Spor Salonu/sqlite-jdbc-3.27.2.1.jar!/org/sqlite/jdbc4/JDBC4Statement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Musteri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2307">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spor Salonu/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spor Salonu/src/VeriTabani.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
         </state>
       </provider>
     </entry>
