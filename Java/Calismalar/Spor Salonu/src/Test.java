@@ -4,7 +4,7 @@ public class Test {
     public static void main (String args[]) {
         VeriTabani x = new VeriTabani();
         x.VeriTabaniniAc();
-        Musteri deneme = x.musteriyiBul(1,"123456");
+       Musteri deneme = x.musteriyiBul(1,"123456");
         // a= x.musteriyiBul(1,"123456");
         //System.out.println(a.getId()+" "+a.getIsim()+" "+a.getHareketler1());
         /*a.dersProgramiOlustur(x);
@@ -13,7 +13,7 @@ public class Test {
         ////////////////////////////////////
         int []gecicidersprog={2,1,0,3,4,3,3};
         x.musteriDersPrograminiGuncelle(2,gecicidersprog);
-        String []geciciHareketler={null,"1;1;1;1;1;",null,"4;5;6;7;8;","2;2;2;2;2;2;",null,"3;3;3;3;3;3;"};
+        String []geciciHareketler={"null;","1;1;1;1;1;","null;","4;5;6;7;8;","2;2;2;2;2;2;","null;","3;3;3;3;3;3;"};
         x.musteriHareketleriGuncelle(1,geciciHareketler);
         for (int i = 1; i <5 ; i++) {
             for (int j = 0; j <7 ; j++) {
@@ -21,8 +21,9 @@ public class Test {
             }
             System.out.println("\n");
         }
+        System.out.println(x.aletdolulukOranlari(x.getSporIndisAlet()));
         ///////////////////////////////
-        System.out.println("Buradayiz");
+       /* System.out.println("Buradayiz");
         Musteri Yusuf = x.musteriyiBul(1,"123456");
         Musteri aykutunistedigi = x.musteriyiBul(16011241,"gmgceh");
         System.out.println(aykutunistedigi.toString());
@@ -68,7 +69,7 @@ public class Test {
         int [] tmp2 = {1,0,4,2,2,4,2};
         x.musteriDersPrograminiGuncelle(yeni.getId(),tmp2);
         x.tumMusterileriGetir();
-        System.out.println(x.musteriIDgetir());
+        System.out.println(x.musteriIDgetir());*/
         x.VeriTabaniniKapa();
 
     }

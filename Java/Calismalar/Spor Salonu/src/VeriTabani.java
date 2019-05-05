@@ -317,6 +317,7 @@ public class VeriTabani {
             e.printStackTrace();
             return null;
         }
+
         return aletler;
     }
     public boolean musteriEkle(Musteri musteri) {
